@@ -1,0 +1,16 @@
+white:
+#EAEAEA
+#EEEEEE
+#F3F3F3
+#F5F5F5
+#F9F9F9
+
+black:
+#030303
+#050505
+#080808
+#101010
+#212121
+
+blue
+#b1ddf1

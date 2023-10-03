@@ -1,0 +1,83 @@
+:root {
+  --bg-color: #101010;
+  --text-color: #F9F9F9;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+/* Dark Theme */
+.dark {
+  --bg-color:#F9F9F9;
+  --text-color: #101010;
+}
+
+.card {
+  width: 190px;
+  height: 254px;
+  background: var(--bg-color);
+  border: 2px solid var(--text-color);
+  border-radius: 20px;
+}
+
+.cardpins{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 30px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+
+
+.bi-journal-text{
+  color: var(--text-color);
+}
+
+.bi-arrow-clockwise{
+  color: var(--bg-color);
+}
+
+.card:hover {
+  width: 190px;
+  height: 254px;
+  background: var(--text-color);
+  border: 2px solid  var(--text-color);
+  border-radius: 20px;
+  background-color: var(--text-color);
+  color: var(--bg-color);
+}
+
+.secondAnimation {
+  --hoverContorno: #959595;
+}
+
+.secondAnimation:hover,
+.secondAnimation:focus {
+  -webkit-animation: cardAnimacion 1.4s;
+  animation: cardAnimacion 1.4s;
+  box-shadow: 0 0 0 0.8em var(--bg-color);
+  border-radius: 20px;
+}
+
+@-webkit-keyframes cardAnimacion {
+  0% {
+    box-shadow: 0 0 0 0 var(--hoverContorno);
+  }
+}
+
+@keyframes cardAnimacion {
+  0% {
+    box-shadow: 0 0 0 0 var(--hoverContorno);
+  }
+}
+
+
+/* rect cards*/
+/*Retro Style Card*/
+
+
+
+
